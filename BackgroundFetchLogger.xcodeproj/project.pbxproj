@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3459AE1A1A8A4A68001D162B /* BatteryStateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459AE191A8A4A68001D162B /* BatteryStateObserver.swift */; };
+		3460FEFE1A853C6A00B08C7D /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460FEFD1A853C6A00B08C7D /* FunctionsTests.swift */; };
+		3460FEFF1A85441500B08C7D /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C6031E1A84697D00696DA9 /* Functions.swift */; };
+		3460FF031A857FCC00B08C7D /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460FF021A857FCC00B08C7D /* Fetcher.swift */; };
+		34852A991A83C563002D85C0 /* LogStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34852A981A83C563002D85C0 /* LogStats.swift */; };
+		34C6031F1A84697D00696DA9 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C6031E1A84697D00696DA9 /* Functions.swift */; };
+		34E623CC1A826CC80028938F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E623CB1A826CC80028938F /* AppDelegate.swift */; };
+		34E623CE1A826CC80028938F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E623CD1A826CC80028938F /* ViewController.swift */; };
+		34E623D11A826CC80028938F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E623CF1A826CC80028938F /* Main.storyboard */; };
+		34E623D31A826CC80028938F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E623D21A826CC80028938F /* Images.xcassets */; };
+		34E623D61A826CC80028938F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E623D41A826CC80028938F /* LaunchScreen.xib */; };
+		34E623EC1A826D8D0028938F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E623EB1A826D8D0028938F /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34E623DC1A826CC80028938F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34E623BE1A826CC80028938F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34E623C51A826CC80028938F;
+			remoteInfo = BackgroundFetchTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3459AE191A8A4A68001D162B /* BatteryStateObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStateObserver.swift; sourceTree = "<group>"; };
+		3460FEFC1A853C6A00B08C7D /* BackgroundFetchLoggerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundFetchLoggerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3460FEFD1A853C6A00B08C7D /* FunctionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
+		3460FF021A857FCC00B08C7D /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		34852A981A83C563002D85C0 /* LogStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogStats.swift; sourceTree = "<group>"; };
+		34C6031E1A84697D00696DA9 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		34E623C61A826CC80028938F /* BackgroundFetchLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundFetchLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E623CA1A826CC80028938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E623CB1A826CC80028938F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34E623CD1A826CC80028938F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34E623D01A826CC80028938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34E623D21A826CC80028938F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34E623D51A826CC80028938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34E623DB1A826CC80028938F /* BackgroundFetchLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundFetchLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E623E01A826CC80028938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E623EB1A826D8D0028938F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E623C31A826CC80028938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E623D81A826CC80028938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E623BD1A826CC80028938F = {
+			isa = PBXGroup;
+			children = (
+				34E623C81A826CC80028938F /* BackgroundFetchLogger */,
+				34E623DE1A826CC80028938F /* BackgroundFetchLoggerTests */,
+				34E623C71A826CC80028938F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E623C71A826CC80028938F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E623C61A826CC80028938F /* BackgroundFetchLogger.app */,
+				34E623DB1A826CC80028938F /* BackgroundFetchLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E623C81A826CC80028938F /* BackgroundFetchLogger */ = {
+			isa = PBXGroup;
+			children = (
+				34E623CB1A826CC80028938F /* AppDelegate.swift */,
+				34E623CD1A826CC80028938F /* ViewController.swift */,
+				3460FF021A857FCC00B08C7D /* Fetcher.swift */,
+				3459AE191A8A4A68001D162B /* BatteryStateObserver.swift */,
+				34E623EB1A826D8D0028938F /* Logger.swift */,
+				34852A981A83C563002D85C0 /* LogStats.swift */,
+				34C6031E1A84697D00696DA9 /* Functions.swift */,
+				34E623CF1A826CC80028938F /* Main.storyboard */,
+				34E623D21A826CC80028938F /* Images.xcassets */,
+				34E623D41A826CC80028938F /* LaunchScreen.xib */,
+				34E623C91A826CC80028938F /* Supporting Files */,
+			);
+			path = BackgroundFetchLogger;
+			sourceTree = "<group>";
+		};
+		34E623C91A826CC80028938F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E623CA1A826CC80028938F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E623DE1A826CC80028938F /* BackgroundFetchLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				34E623DF1A826CC80028938F /* Supporting Files */,
+				3460FEFD1A853C6A00B08C7D /* FunctionsTests.swift */,
+				3460FEFC1A853C6A00B08C7D /* BackgroundFetchLoggerTests-Bridging-Header.h */,
+			);
+			path = BackgroundFetchLoggerTests;
+			sourceTree = "<group>";
+		};
+		34E623DF1A826CC80028938F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E623E01A826CC80028938F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E623C51A826CC80028938F /* BackgroundFetchLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E623E51A826CC80028938F /* Build configuration list for PBXNativeTarget "BackgroundFetchLogger" */;
+			buildPhases = (
+				34E623C21A826CC80028938F /* Sources */,
+				34E623C31A826CC80028938F /* Frameworks */,
+				34E623C41A826CC80028938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundFetchLogger;
+			productName = BackgroundFetchTest;
+			productReference = 34E623C61A826CC80028938F /* BackgroundFetchLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34E623DA1A826CC80028938F /* BackgroundFetchLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E623E81A826CC80028938F /* Build configuration list for PBXNativeTarget "BackgroundFetchLoggerTests" */;
+			buildPhases = (
+				34E623D71A826CC80028938F /* Sources */,
+				34E623D81A826CC80028938F /* Frameworks */,
+				34E623D91A826CC80028938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34E623DD1A826CC80028938F /* PBXTargetDependency */,
+			);
+			name = BackgroundFetchLoggerTests;
+			productName = BackgroundFetchTestTests;
+			productReference = 34E623DB1A826CC80028938F /* BackgroundFetchLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E623BE1A826CC80028938F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pivotal Labs";
+				TargetAttributes = {
+					34E623C51A826CC80028938F = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					34E623DA1A826CC80028938F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 34E623C51A826CC80028938F;
+					};
+				};
+			};
+			buildConfigurationList = 34E623C11A826CC80028938F /* Build configuration list for PBXProject "BackgroundFetchLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E623BD1A826CC80028938F;
+			productRefGroup = 34E623C71A826CC80028938F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E623C51A826CC80028938F /* BackgroundFetchLogger */,
+				34E623DA1A826CC80028938F /* BackgroundFetchLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E623C41A826CC80028938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E623D11A826CC80028938F /* Main.storyboard in Resources */,
+				34E623D61A826CC80028938F /* LaunchScreen.xib in Resources */,
+				34E623D31A826CC80028938F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E623D91A826CC80028938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E623C21A826CC80028938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E623CE1A826CC80028938F /* ViewController.swift in Sources */,
+				34E623EC1A826D8D0028938F /* Logger.swift in Sources */,
+				34852A991A83C563002D85C0 /* LogStats.swift in Sources */,
+				34C6031F1A84697D00696DA9 /* Functions.swift in Sources */,
+				34E623CC1A826CC80028938F /* AppDelegate.swift in Sources */,
+				3459AE1A1A8A4A68001D162B /* BatteryStateObserver.swift in Sources */,
+				3460FF031A857FCC00B08C7D /* Fetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E623D71A826CC80028938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3460FEFE1A853C6A00B08C7D /* FunctionsTests.swift in Sources */,
+				3460FEFF1A85441500B08C7D /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34E623DD1A826CC80028938F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34E623C51A826CC80028938F /* BackgroundFetchLogger */;
+			targetProxy = 34E623DC1A826CC80028938F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34E623CF1A826CC80028938F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E623D01A826CC80028938F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34E623D41A826CC80028938F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E623D51A826CC80028938F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34E623E31A826CC80028938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34E623E41A826CC80028938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E623E61A826CC80028938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroundFetchLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BackgroundFetchLogger;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34E623E71A826CC80028938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroundFetchLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BackgroundFetchLogger;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34E623E91A826CC80028938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BackgroundFetchLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BackgroundFetchLoggerTests;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackgroundFetchLoggerTests/BackgroundFetchLoggerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundFetchLogger.app/BackgroundFetchLogger";
+			};
+			name = Debug;
+		};
+		34E623EA1A826CC80028938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BackgroundFetchLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BackgroundFetchLoggerTests;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackgroundFetchLoggerTests/BackgroundFetchLoggerTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundFetchLogger.app/BackgroundFetchLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E623C11A826CC80028938F /* Build configuration list for PBXProject "BackgroundFetchLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E623E31A826CC80028938F /* Debug */,
+				34E623E41A826CC80028938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E623E51A826CC80028938F /* Build configuration list for PBXNativeTarget "BackgroundFetchLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E623E61A826CC80028938F /* Debug */,
+				34E623E71A826CC80028938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E623E81A826CC80028938F /* Build configuration list for PBXNativeTarget "BackgroundFetchLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E623E91A826CC80028938F /* Debug */,
+				34E623EA1A826CC80028938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E623BE1A826CC80028938F /* Project object */;
+}
